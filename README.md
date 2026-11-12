@@ -40,6 +40,7 @@
 - [📊 Examples of Work](#-examples-of-work)
 - [🎨 Design Patterns and Principles](#-design-patterns-and-principles)
 - [🧰 Tech Stack](#-tech-stack)
+- [📖 How to Cite](#-how-to-cite)
 - [🤝 Contributing](#-contributing)
 - [🙏 Acknowledgment](#-acknowledgment)
 
@@ -257,6 +258,8 @@ pip install -r requirements.txt
 │   │
 │   └── 📄 main.py                   # Main entry point
 │
+├── 📄 CITATION.cff
+├── 📄 LICENSE    
 ├── 📄 requirements.txt              # Python dependencies
 └── 📄 README.md                     # This document
 ```
@@ -386,6 +389,31 @@ max_speed = 4.0              # Maximum robot speed (m/s)
 | ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?logo=python&logoColor=white) | Required | Live trajectory plots, performance metrics, DWA vs MPC command comparison |
 
 </div>
+
+---
+
+## 📖 How to Cite
+
+If you use this project in your research, academic work, or other software projects, please cite the associated publication:
+
+### Journal Article
+
+```bibtex
+@article{Mughal2026TriLayerNav,
+  author  = {Mughal, U. A. B. and Ali, A. and Urwa
+             and Abramchuk, M. V.},
+  title   = {TriLayer-Nav: A Tri-Layer Navigation Framework
+             Integrating A*, Dynamic Window Approach,
+             and Model Predictive Control for
+             Differential-Drive Robots},
+  journal = {Gyroscopy and Navigation},
+  volume  = {17},
+  number  = {1},
+  pages   = {24--33},
+  year    = {2026},
+  doi     = {10.1134/S2075108726700094}
+}
+```
 
 ---
 
