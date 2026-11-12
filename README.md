@@ -10,6 +10,7 @@
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-Required-11557C?style=for-the-badge&logo=python&logoColor=white)](https://matplotlib.org/)
 [![Field](https://img.shields.io/badge/Field-Robotics%20%26%20AI-blueviolet?style=for-the-badge&logo=ros&logoColor=white)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+[![DOI](https://img.shields.io/badge/DOI-10.1134%2FS2075108726700094-blue?style=for-the-badge&logo=doi)](https://doi.org/10.1134/S2075108726700094)
 
 <br>
 
@@ -28,6 +29,7 @@
 ## 📋 Table of Contents
 
 - [📖 Introduction](#-introduction)
+- [📚 Research Publication](#-research-publication)
 - [✨ Key Features](#-key-features)
 - [🏗️ System Architecture](#️-system-architecture)
 - [⚙️ Algorithms Implemented](#️-algorithms-implemented)
@@ -73,6 +75,71 @@ The system uses a **hierarchical tri-layer approach**:
 2. **Local trajectory optimization** with Dynamic Window Approach (DWA)
 3. **Model Predictive Control (MPC)** for precise trajectory following
 4. **PID** for low-level motor control
+
+---
+
+## 📚 Research Publication
+
+This project is associated with the following published research article, which presents the proposed **TriLayer-Nav** framework for autonomous navigation of differential-drive robots.
+
+### 📄 Published Journal Article
+
+**TriLayer-Nav: A Tri-Layer Navigation Framework Integrating A*, Dynamic Window Approach, and Model Predictive Control for Differential-Drive Robots**
+
+<div align="center">
+
+[![Journal](https://img.shields.io/badge/Journal-Gyroscopy%20and%20Navigation-2E6D9F?style=flat-square)](https://link.springer.com/journal/13140)
+[![Publisher](https://img.shields.io/badge/Publisher-Springer%20Nature-green?style=flat-square)](https://link.springer.com/)
+[![DOI](https://img.shields.io/badge/DOI-10.1134%2FS2075108726700094-blue?style=flat-square)](https://doi.org/10.1134/S2075108726700094)
+
+</div>
+
+**Publication Details:**
+
+- **Journal:** *Gyroscopy and Navigation*
+- **Publisher:** Springer Nature
+- **Volume:** 17
+- **Pages:** 24–33
+- **Year:** 2026
+- **Published:** 20 July 2026
+- **DOI:** [10.1134/S2075108726700094](https://doi.org/10.1134/S2075108726700094)
+- **Authors:** U. A. B. Mughal, A. Ali, Urwa, and M. V. Abramchuk
+- **Affiliation:** ITMO University, St. Petersburg, Russia
+
+### Abstract and Research Overview
+
+The paper introduces **TriLayer-Nav**, a modular hierarchical navigation framework integrating global path planning, reactive local trajectory optimization, and predictive control for differential-drive mobile robots.
+
+The proposed architecture combines three principal planning and control algorithms:
+
+1. **A* Global Path Planning:** Computes collision-free global paths through the environment.
+2. **Dynamic Window Approach (DWA):** Performs real-time local trajectory planning and reactive obstacle avoidance.
+3. **Model Predictive Control (MPC):** Refines local motion commands while accounting for non-holonomic constraints and actuator limitations.
+
+A low-level **PID controller** performs wheel-level velocity tracking to execute the resulting motion commands.
+
+The framework was implemented and evaluated in the **MuJoCo physics simulation environment**, enabling validation under realistic rigid-body dynamics, frictional interactions, and actuator feedback.
+
+### Key Research Findings
+
+The simulation results demonstrated:
+
+- **96.6% navigation success rate** across the evaluated simulation scenarios.
+- Smoother trajectories with fewer curvature discontinuities.
+- Reduced control oscillations and improved heading accuracy.
+- Lower energy consumption compared with less integrated navigation approaches.
+- Real-time computational feasibility through nonlinear MPC optimization.
+- Improved responsiveness to environmental changes and sensor noise.
+
+The findings demonstrate the benefits of integrating global planning, reactive obstacle avoidance, and predictive control into a unified navigation architecture.
+
+### Citation
+
+Mughal, U.A., Ali, A., Urwa, et al. (2026). TriLayer-Nav: A Tri-Layer Navigation Framework Integrating A*, Dynamic Window Approach, and Model Predictive Control for Differential-Drive Robots. *Gyroscopy and Navigation*, 17, 24–33.
+
+**DOI:** https://doi.org/10.1134/S2075108726700094
+
+**Read the full paper:** [Springer Nature – Published Article](https://link.springer.com/article/10.1134/S2075108726700094)
 
 ---
 
