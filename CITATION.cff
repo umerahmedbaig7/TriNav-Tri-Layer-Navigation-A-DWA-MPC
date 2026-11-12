@@ -1,0 +1,53 @@
+
+cff-version: 1.2.0
+message: >-
+  If you use this software in your research, please cite the software
+  repository and its associated research publication.
+
+title: "TriLayer-Nav: A Tri-Layer Navigation Framework Integrating A*, DWA, and MPC for Differential-Drive Robots"
+
+authors:
+  - family-names: Mughal
+    given-names: Umer Ahmed Baig
+
+type: software
+
+url: "https://github.com/umerahmedbaig7/TriNav-Tri-Layer-Navigation-A-DWA-MPC"
+
+repository-code: "https://github.com/umerahmedbaig7/TriNav-Tri-Layer-Navigation-A-DWA-MPC"
+
+license: MIT
+
+keywords:
+  - Robotics
+  - Autonomous Navigation
+  - Motion Planning
+  - A* Algorithm
+  - Dynamic Window Approach
+  - Model Predictive Control
+  - Differential-Drive Robots
+  - MuJoCo
+  - Robot Control
+
+preferred-citation:
+  type: article-journal
+  authors:
+    - family-names: Mughal
+      given-names: U. A. B.
+    - family-names: Ali
+      given-names: A.
+    - given-names: Urwa
+    - family-names: Abramchuk
+      given-names: M. V.
+  title: >-
+    TriLayer-Nav: A Tri-Layer Navigation Framework Integrating A*,
+    Dynamic Window Approach, and Model Predictive Control for
+    Differential-Drive Robots
+  journal: Gyroscopy and Navigation
+  volume: 17
+  issue: 1
+  start: 24
+  end: 33
+  year: 2026
+  doi: "10.1134/S2075108726700094"
+  url: "https://doi.org/10.1134/S2075108726700094"
